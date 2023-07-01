@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;600&family=Roboto:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #627bd1;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+/* background */
+.background1 {
+  width: 140vh;
+  height: 140vh;
+  border-radius: 50%;
+  background-color: #acc4fc23;
+  position: absolute;
+  left: -250px;
+  top: -150px;
+}
+.background2 {
+  width: 80vh;
+  height: 80vh;
+  border-radius: 50%;
+  background-color: #acc4fc54;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+.background3 {
+  width: 50vh;
+  height: 50vh;
+  border-radius: 50%;
+  background-color: #acc4fc98;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+}
+.background4 {
+  width: 60vh;
+  height: 60vh;
+  border-radius: 50%;
+  background-color: #acc4fc41;
+  position: absolute;
+  top: -120px;
+  right: -110px;
+}
+.background5 {
+  width: 48vh;
+  height: 48vh;
+  border-radius: 50%;
+  background-color: #acc4fc75;
+  position: absolute;
+  top: -65px;
+  right: -65px;
+}
+.background6 {
+  width: 50vh;
+  height: 50vh;
+  border-radius: 50%;
+  background-color: #acc4fc41;
+  position: absolute;
+  bottom: -120px;
+  right: -110px;
+}
+.background7 {
+  width: 35vh;
+  height: 35vh;
+  border-radius: 50%;
+  background-color: #acc4fc75;
+  position: absolute;
+  bottom: -65px;
+  right: -65px;
+}
+
+.menu {
+  background-color: #fbfafb;
+  position: relative;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+  min-height: 760px;
+}
+
+/* Head */
+
+.active {
+  background-color:  #fefffe;
+  display: flex;
+  justify-content: space-between;
+  min-width: 1000px;
+  padding-top: 20px;
+  padding-bottom: 10px
+}
+header img {
+  width: 30px;
+}
+.icon img {
+  width: 30px;
+}
+.user {
+  padding-right: 50px;
+}
+#search {
+  width: 300px;
+  height: 50px;
+  border: 0px solid #FFF;
+  background-color:  rgba(241, 241, 241, 0.921);
+  border-radius: 20px;
+  text-align: center;
+  font-size: 15px
+}
+
+#bars {
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+/* Menu Principal */
+
+.main-principal img {
+  width: 30px;
+}
+.main-principal {
+  background-color: #FFF;
+  margin-top: 100px;
+  margin-left: 150px;
+  width: 700px;
+  height: 500px;
+}
+.payment h2 {
+  padding: 20px 0px 0px 20px;
+  text-transform: uppercase;
+}
+/* Info Cash */
+
+.info {
+  display: inline-flex;
+  margin: 35px 0px 0px 75px;
+}
+.credit-card {
+  background-color: #627bd1;
+  color: white;
+  font-size: 15px;
+  min-width: 170px;
+  height: 85px;
+}
+.credit-card img {
+  padding-top: 10px;
+  padding-left: 65px;
+  width: 40px;
+}
+.credit-card p {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.paypal {
+  font-size: 15px;
+  margin-left: 45px
+}
+.paypal img {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.cash {
+  font-size: 15px;
+  margin-left: 45px;
+}
+.cash img {
+  width: 40px;
+  padding-top: 13px;
+  padding-left: 35px;
+}
+
+.wallet {
+  font-size: 15px;
+  margin-left: 45px;
+}
+.wallet img {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+/* Form */
+
+.formulario input {
+  display: inherit;
+  width: 600px;
+  height: 30px;
+  font-size: 18px;
+  background-color: rgb(241, 241, 241);
+  border: 1px solid rgba(241, 241, 241, 0.616);
+}
+.formulario label {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.formulario {
+  margin: 20px 0px 0px 30px;
+}
+.visa input {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.card input {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.date input {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.verificacao input {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.validity {
+  display: flex;
+}
+.validity input {
+  width: 300px;
+}
+.date input {
+  margin-right: 10px;
+}
+.verificacao input {
+  width: 290px;
+}
+.check {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.enviar {
+  width: 80px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+  background-color: #627bd1;
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  border: 0px;
+  transition:  0.1s linear;
+}
+.enviar:hover {
+  background-color: #627cd1ab;
+  width: 85px;
+  height: 35px;
+}

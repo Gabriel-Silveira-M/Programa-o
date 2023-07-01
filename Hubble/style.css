@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/*
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+*/
+
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: hsl(257, 40%, 49%);
+}
+.bg {
+  position: absolute;
+  z-index: 9;
+  left: 0%;
+  display: flex;
+  height: 100%;
+}
+.card-container {
+  position: relative;
+  z-index: 10;
+  
+}
+/*
+.image img {
+  margin: 100px 50px auto;
+  min-width: 90vh;
+}
+*/
+.icon img {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.icons {
+  max-width: 10px;
+}
+.text {
+  margin: 200px 150vh auto;
+  display: flex;
+  flex-direction: column;
+}
+.text h2 {
+  color: white;
+  font-size: 30px;
+}

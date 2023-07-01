@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+ --Dark-cyan: hsl(185, 75%, 39%);
+ --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+ --Dark-grayish-blue: hsl(227, 10%, 46%);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: var(--Dark-cyan);
+  font-size: 18px;
+}
+.card-container {
+  background-color: white;
+  max-width: 450px;
+  min-height: 50vh;
+  margin: 200px auto;
+  text-align: center;
+  position: relative;
+  z-index: 100;
+  border-radius: 30px;
+}
+.bg-top {
+  position: absolute;
+  top: -50%;
+  right: 50%;
+  z-index: 9;
+}
+.bg-bottom {
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  z-index: 9;
+}
+.perfil {
+  position: relative;
+  padding: 130px 0px 0px 170px;
+}
+.perfil img {
+  border: 5px solid #FFF;
+  border-radius: 100px;
+}
+.card-pattern img{
+  border-radius: 30px 30px 0px 0px;
+  width: 450px;
+  position: absolute;
+}
+.card-pattern img, .perfil img {
+  display: flex;
+}
+.text {
+  padding-top: 30px;
+}
+.name, .year{
+  display: inline-block;
+}
+.year {
+  font-weight: 400;
+  color: var(--Dark-grayish-blue);
+  padding-left: 5px;
+  font-size: 20px;
+}
+.name {
+  font-weight: 700;
+  color: var(--Very-dark-desaturated-blue);
+}
+.city {
+  padding-top: 15px;
+  color:hsl(227, 10%, 46%);
+  padding-bottom: 25px;
+}
+hr {
+  width: 450px;
+  border: 0;
+  font-weight: 400;
+  border-bottom: 1px solid #dfdfdd;
+}
+.flow, .photo, .like {
+  display: inline-block;
+  padding-top: 30px;
+}
+.flow {
+  float: left;
+  padding-left: 50px;
+}
+.photo {
+  float: right;
+  padding-right: 50px;
+}
+
+.flow p {
+  color: hsl(227, 10%, 46%);
+  letter-spacing: 1.5px;
+  font-size: 15px;
+}
+.like p {
+  color: hsl(227, 10%, 46%);
+  letter-spacing: 1.5px;
+  font-size: 15px;
+}
+.photo p {
+  color: hsl(227, 10%, 46%);
+  letter-spacing: 1.5px;
+  font-size: 15px;
+}

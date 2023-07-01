@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  --Very-dark-blue-main: hsl(217, 54%, 11%);
+  --Very-dark-blue-card: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:'Outfit', sans-serif;
+  display: flex;
+  font-size: 18px;
+  background-color: var(--Very-dark-blue-main);
+  min-height: 100vh;
+  align-items: center;
+
+}
+.container {
+  background-color: var(--Very-dark-blue-card);
+  align-items: center;
+  margin: 0 auto;
+  max-width: 340px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 46px #000;
+}
+.img-top img {
+  width: 100%;
+  display: block;
+}
+.img-top {
+ overflow: hidden;
+ position: relative;
+ border-radius: 10px;
+}
+.img-overplay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(178, 100%, 50%, 0.5);
+  display: none;
+}
+.img-overplay img {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.card {
+  padding: 15px;
+  margin: 2rem 1em;
+}
+.text h2 {
+  color: var(--White);
+  font-weight: 600;
+  padding-top: 20px;
+  font-size: 21px;
+}
+.text p {
+  color: var(--Soft-blue);
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.flex {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.eth {
+  display: flex;
+  color:hsl(178, 100%, 50%);
+  font-size: 17px;
+}
+.eth p {
+  padding-left: 7px;
+  font-weight: 600;
+}
+
+.clock {
+  display: flex;
+  color: var(--Soft-blue);
+  font-weight: 300;
+  font-size: 18px;
+}
+.clock p {
+  padding-left: 7px;
+}
+.clock img {
+  width: 18px;
+  height: 20px;
+  padding-top: 2px;
+}
+
+
+.dados img {
+  border: 1px solid #FFF;
+  border-radius: 100px;
+  width: 35px;
+}
+.dados {
+  display: flex;
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+.criacao {
+  color: var(--Soft-blue);
+  font-weight: 300;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 18px;
+}
+.active {
+  color:hsl(0, 0%, 100%);
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 18px;
+}
+.line {
+  border: 0.5px solid hsl(215, 32%, 27%);
+  width: 280px;
+  margin-top: 20px;
+}

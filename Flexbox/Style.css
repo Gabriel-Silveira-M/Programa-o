@@ -1,0 +1,343 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+}
+/* Cabeçalho */
+
+header {
+  justify-content: center;
+  display: flex;
+  height: 120px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 40px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 25px;
+}
+.menu li {
+  list-style-type: none;
+}
+.menu a {
+  text-decoration: none;
+  color: #727272;
+  display: block;
+  padding: 15px;
+}
+.menu ul {
+  display: flex;
+}
+.menu a:hover {
+  background-color: #39aae1;
+  color: #FFF;
+}
+
+/* Banner */
+
+.image img {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+.banner-container {
+  position:relative;
+  z-index: 20;
+}
+.text {
+  color: white;
+  padding:130px 0px 0px 350px;
+}
+.text h1 {
+  font-size: 60px;
+  width: 500px;
+}
+.text h2 {
+  padding-top: 50px;
+  width: 400px;
+}
+.blocks {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 150px;
+  margin-right: 450px;
+}
+.emergency {
+  color: white;
+  background-color: #39aae1;
+  padding: 20px;
+  max-width: 350px;
+  min-height: 200px;
+}
+.emergency a{
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 8px;
+  margin-top: 35px;
+  display: flex;
+  max-width: 80px;
+}
+.emergency h3 {
+  font-size: 30px
+}
+.emergency p {
+  padding-top: 20px;
+}
+
+.doctor {
+  color: white;
+  background-color: #0079c7;
+  padding: 20px;
+  max-width: 350px;
+  min-height: 200px;
+}
+.doctor a{
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 8px;
+  margin-top: 35px;
+  display: flex;
+  max-width: 80px;
+}
+.doctor p {
+  padding-top: 20px;
+}
+.doctor h3 {
+  font-size: 30px;
+}
+.opening {
+  color: white;
+  background-color: #2b4c99;
+  padding: 20px;
+}
+.opening h3 {
+  font-size: 30px;
+}
+.opening hr {
+  color: #dddddd
+}
+.monday {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+  margin-bottom: 10px; 
+  min-width: 250px;
+}
+.saturday {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 10px; 
+  min-width: 250px;
+}
+.sunday {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  min-width: 250px;
+}
+
+/* Main */
+
+.description {
+  margin-top: 5vh;
+  margin-left: 5vh;
+}
+.description img {
+  max-width: 350px;
+}
+.description h3 {
+  font-weight: 200;
+}
+.description hr {
+  width: 52px;
+  margin-top: 5px;
+  border: 1.5px solid #39aae1;
+}
+
+.date1 {
+  display: flex;
+  margin-top: 30px;
+  color: white;
+  margin-bottom: 40px;
+}
+.date1 a {
+  margin-left: 3px;
+  padding: 15px;
+  background-color: #39aae1;
+  text-decoration: none;
+  color: #FFF;
+}
+.date1 p {
+  background-color: #2b4c99;
+  padding: 12px;
+}
+.conteudo1 a, p {
+  display: flex;
+}
+.conteudo1 a {
+  text-decoration: none;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+.conteudo1 p {
+  font-size: 16px;
+  color: #0000008c;
+}
+.bloco1 {
+  max-width: 40vh;
+  margin-right: 10px;
+}
+
+.date2 {
+  display: flex;
+  margin-top: 30px;
+  color: white;
+  margin-bottom: 40px;
+}
+.date2 a {
+  margin-left: 3px;
+  padding: 15px;
+  background-color: #39aae1;
+  text-decoration: none;
+  color: #FFF;
+}
+.date2 p {
+  background-color: #2b4c99;
+  padding: 12px;
+}
+.conteudo2 a, p {
+  display: flex;
+}
+.conteudo2 a {
+  text-decoration: none;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+.conteudo2 p {
+  font-size: 16px;
+  color: #0000008c;
+}
+.bloco2 {
+  max-width: 40vh;
+}
+
+
+.date3 {
+  display: flex;
+  margin-top: 30px;
+  color: white;
+  margin-bottom: 40px;
+}
+.date3 a {
+  margin-left: 3px;
+  padding: 15px;
+  background-color: #39aae1;
+  text-decoration: none;
+  color: #FFF;
+}
+.date3 p {
+  background-color: #2b4c99;
+  padding: 12px;
+}
+.conteudo3 a, p {
+  display: flex;
+}
+.conteudo3 a {
+  text-decoration: none;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+.conteudo3 p {
+  font-size: 16px;
+  color: #0000008c;
+}
+.bloco3 {
+  max-width: 40vh;
+}
+
+.date4 {
+  display: flex;
+  margin-top: 30px;
+  color: white;
+  margin-bottom: 40px;
+}
+.date4 a {
+  margin-left: 3px;
+  padding: 15px;
+  background-color: #39aae1;
+  text-decoration: none;
+  color: #FFF;
+}
+.date4 p {
+  background-color: #2b4c99;
+  padding: 12px;
+}
+.conteudo4 a, p {
+  display: flex;
+}
+.conteudo4 a {
+  text-decoration: none;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+.conteudo4 p {
+  font-size: 16px;
+  color: #0000008c;
+}
+.bloco4 {
+  max-width: 40vh;
+  margin-left:10px;
+}
+.bloco1, .bloco2 {
+  display: inline-block;
+}
+.bloco3, .bloco4   {
+  display: inline-block;
+  align-self:flex-end;
+}
+.departments, .description {
+  display: inline-block;
+}
+.departments {
+  margin-left: 10px;
+}
+.departments h3, hr {
+  margin-left: 10px;
+}
+.departments h3 {
+  font-weight: 200;
+}
+.departments hr {
+  width: 52px;
+  margin-top: 5px;
+  border: 1.5px solid #39aae1;
+}
+.card-container {
+  margin-top: 20px;
+  flex-direction: column;
+}
+.card-container div {
+  min-width: 200px;
+  height: 150px;
+  background-color: #39aae1;
+  margin: 20px;
+  padding: 25px;
+  display: flex;
+  align-items: flex-start ;
+}

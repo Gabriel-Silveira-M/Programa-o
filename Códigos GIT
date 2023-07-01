@@ -1,0 +1,64 @@
+Códigos GIT:
+			-----------------Configurando o GIT---------------
+			
+- git config --global user.(name ou email) "Nome"
+- git config --global core.editor "seu editor"
+- git config --list
+
+			----------------Iniciando o Repositório----------
+- git init
+- git status
+- git log
+- git add (nome do arquivo) ou -A para adicionar todos os arquivos
+- git commit -m ou -am para commitar e adicionar
+- git branch
+
+			---------------Revertendo Modificações-----------
+			
+- git reset (--soft, hard, mixed) código do commit
+
+			--------------Trabalhando com Branchs Diferentes--------
+
+- git checkout (nome do branch)
+- git branch + nome (para add um branch novo)
+- git branch -D + nome
+
+			-------------Diferença entre arquivos----------
+
+- git diff
+- git diff --name-only
+- git diff + nome do arquivo
+- git checkout HEAD -- (nome do arquivo)
+
+			-------------Criando Repositório remoto------------
+
+- git remote
+- git remote -v
+- git push -u origin (nome do branch)
+- git push origin (nome do branch) (serve para mandar branchs locais para remotos)
+
+			-------------Fazendo Alterações no respositório remoto------
+
+- git push origin (nome do branch)
+- .gitignore (serve para ignorar pastas ou arquivos)
+
+			-------------Reverter sem perder o código-------------
+
+- git revert --no-edit (nome do código do git log)
+
+			-------------Deletando branches locais e remotos------
+
+- git push origin: (nome do branch)
+- git branch -D (nome do branch)
+
+			-------------Puxando alterações de outras pessoas-----
+
+- git pull origin (nome do branch)
+
+			-------------Clonando Repositórios Remotos------------
+
+- git clone (nome do projeto a ser clonado)
+
+			-------------Contriubuindo com outros repositórios---------
+
+- 
